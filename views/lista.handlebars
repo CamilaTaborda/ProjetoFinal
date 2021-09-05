@@ -1,0 +1,26 @@
+<body>
+<div id="lista">
+        <h3 class="text-center text-white pt-5"></h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                          <h3 class="text-center text-info">Lista de Despesas</h3>
+
+                            {{#each despesas}}
+                                
+                            Despesa: {{despesa}}<br>
+                            Valor: {{valor}}<br>
+                            Centro de Custo: {{ccusto}}<br>
+                            Orçamento: {{orcamento}}<br>
+                                <hr>
+                            
+                            {{/each}}
+
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>       
+</body>
