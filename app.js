@@ -38,7 +38,7 @@ app.get('/despesa', function(req, res){
     res.render('despesa');
 });
 
-app.get('/usuario', function(req, res){
+app.get('/', function(req, res){
     res.render('usuario');
 });
 
